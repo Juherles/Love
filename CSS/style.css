@@ -154,3 +154,63 @@ body {
 }
 
 
+/* ======================
+   RESPONSIVE MOBILE FIX
+   (CARRUSEL + TEXTOS)
+====================== */
+@media (max-width: 768px) {
+
+    /* ENCABEZADO */
+    .encabezado {
+        padding: 30px 15px;
+    }
+
+    .encabezado h1 {
+        font-size: 2.2rem;
+    }
+
+    .encabezado p {
+        font-size: 1.1rem;
+    }
+
+    /* CARRUSEL */
+    .carrusel-img {
+        height: 240px;        /* 🔥 clave para que no se vea mal */
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    /* MENSAJE */
+    .container-mensaje {
+        padding: 20px;
+    }
+
+    .titulo-cumple {
+        font-size: 2rem;
+    }
+
+    .mensaje {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    /* BOTONES */
+    .btn-romantico {
+        font-size: 1rem;
+        padding: 10px 22px;
+    }
+}
+
+/* EXTRA PARA CELULARES MUY PEQUEÑOS */
+@media (max-width: 576px) {
+
+    .carrusel-img {
+        height: 200px;   /* aún mejor para celulares pequeños */
+    }
+
+    .titulo-cumple {
+        font-size: 1.8rem;
+    }
+}
