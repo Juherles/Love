@@ -237,3 +237,67 @@ img {
     font-weight: bold;
     color: #ff4081;
 }
+
+
+/* ======================
+   RESPONSIVE MOBILE FIX
+====================== */
+@media (max-width: 768px) {
+
+    /* ENCABEZADO */
+    .encabezado {
+        padding: 30px 15px;
+    }
+
+    .encabezado h1 {
+        font-size: 2.2rem;
+    }
+
+    .encabezado p {
+        font-size: 1.1rem;
+    }
+
+    /* IMÁGENES */
+    img {
+        max-height: 260px;
+        width: 100%;
+    }
+
+    /* TEXTOS DE ETAPAS */
+    .stage-text {
+        font-size: 0.95rem;
+        padding: 18px;
+        margin-top: 10px;
+    }
+
+    .stage-text strong {
+        font-size: 1.3rem;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    /* MENSAJE FINAL */
+    .titulo-cumple {
+        font-size: 2rem;
+    }
+
+    .mensaje {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+/* EXTRA PARA PANTALLAS MUY PEQUEÑAS */
+@media (max-width: 576px) {
+
+    img {
+        max-height: 220px;
+    }
+
+    .stage-text {
+        padding: 15px;
+    }
+}
+
